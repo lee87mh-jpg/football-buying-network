@@ -56,12 +56,15 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 11px;
   text-decoration: none;
+  flex: 0 0 auto;
 }
-.brand span { display: grid; line-height: 1.05; gap: 4px; }
-.brand strong { font-size: 15px; letter-spacing: -.01em; }
-.brand small { font-size: 11px; color: var(--muted); letter-spacing: .16em; font-weight: 800; }
+.brand-logo {
+  width: 188px;
+  height: auto;
+  display: block;
+}
+.footer-brand .brand-logo { width: 210px; }
 .site-nav { display: flex; align-items: center; gap: 24px; }
 .site-nav > a:not(.button) {
   text-decoration: none;
@@ -351,7 +354,8 @@ details p { margin: -2px 0 24px; max-width: 760px; color: var(--muted); }
 @media (max-width: 600px) {
   .wrap { width: min(calc(100% - 28px), var(--max)); }
   .nav-wrap { min-height: 68px; }
-  .brand strong { font-size: 13px; }
+  .brand-logo { width: 154px; }
+  .footer-brand .brand-logo { width: 184px; }
   .hero { padding: 56px 0 54px; }
   .hero h1 { font-size: clamp(43px, 13vw, 62px); }
   .hero-card { padding: 22px; }
