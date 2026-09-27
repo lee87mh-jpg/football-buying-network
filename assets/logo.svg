@@ -1,6 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
-  <title id="title">Football Buying Network</title>
-  <rect width="64" height="64" rx="16" fill="#071a2b"/>
-  <path d="M17 17h30v8H26v8h17v8H26v12h-9V17Z" fill="#ffffff"/>
-  <path d="M39 33h8v20h-8z" fill="#15b89a"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 240" role="img" aria-labelledby="title desc">
+  <title id="title">FBN — Football Buying Network</title>
+  <desc id="desc">FBN in navy and green with Football Buying Network centred beneath at the same width.</desc>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="900">
+    <text x="50" y="150" font-size="160" textLength="600" lengthAdjust="spacingAndGlyphs">
+      <tspan fill="#0A2A45">F</tspan><tspan fill="#42B72A">B</tspan><tspan fill="#0A2A45">N</tspan>
+    </text>
+    <text x="50" y="211" font-size="34" textLength="600" lengthAdjust="spacingAndGlyphs">
+      <tspan fill="#0A2A45">FOOTBALL </tspan><tspan fill="#42B72A">BUYING</tspan><tspan fill="#0A2A45"> NETWORK</tspan>
+    </text>
+  </g>
 </svg>
