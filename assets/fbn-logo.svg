@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">FBN Football Buying Network</title>
+  <desc id="desc">A simple professional wordmark with FBN above Football Buying Network. F and N are navy, B and Buying are green.</desc>
+  <style>
+    .main { font: 900 270px Arial, Helvetica, sans-serif; }
+    .sub { font: 900 68px Arial, Helvetica, sans-serif; letter-spacing: 1px; }
+  </style>
+  <g text-anchor="middle">
+    <text class="main" x="600" y="285" textLength="980" lengthAdjust="spacingAndGlyphs">
+      <tspan fill="#0A2A45">F</tspan><tspan fill="#43B82B">B</tspan><tspan fill="#0A2A45">N</tspan>
+    </text>
+    <text class="sub" x="600" y="382" textLength="980" lengthAdjust="spacingAndGlyphs">
+      <tspan fill="#0A2A45">FOOTBALL </tspan><tspan fill="#43B82B">BUYING</tspan><tspan fill="#0A2A45"> NETWORK</tspan>
+    </text>
+  </g>
+</svg>
