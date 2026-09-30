@@ -33,13 +33,11 @@
         <h2 id="form-title">Pilot interest form</h2>
         <p>Complete the short form below and Lee will follow up personally.</p>
 
-        <form action="https://formsubmit.co/lee@footballbuyingnetwork.co.uk" method="POST">
-          <input type="hidden" name="_subject" value="New FBN Pilot Interest">
-          <input type="hidden" name="_next" value="https://footballbuyingnetwork.co.uk/thank-you.html">
-          <input type="hidden" name="_template" value="table">
-          <input type="hidden" name="_url" value="https://footballbuyingnetwork.co.uk/join.html">
-          <input type="hidden" name="_autoresponse" value="Thanks for registering your interest in the Football Buying Network pilot. Lee will review the details you submitted and get in touch shortly. There is no cost to take part and no obligation to proceed with anything.">
-          <input class="honey" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="24cc8421-e1ac-4268-a3cf-7a0f6edebf78">
+          <input type="hidden" name="subject" value="New FBN Pilot Interest">
+          <input type="hidden" name="redirect" value="https://footballbuyingnetwork.co.uk/thank-you.html">
+          <input type="checkbox" name="botcheck" class="honey" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
 
           <div class="form-grid">
             <div class="form-group">
@@ -106,7 +104,7 @@
           </label>
 
           <button class="button form-submit" type="submit">Register interest</button>
-          <p class="form-note">Your submission is processed by FormSubmit so it can be delivered to FBN by email. Spam protection may ask you to complete a verification step.</p>
+          <p class="form-note">Your submission is processed by Web3Forms so it can be delivered securely to FBN by email. Spam-protection controls are applied to help reduce unwanted submissions.</p>
         </form>
       </section>
 
