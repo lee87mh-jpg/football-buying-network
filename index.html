@@ -8,6 +8,7 @@
   <title>Football Buying Network | Smarter purchasing for football clubs</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css?v=20261007-supporters">
+  <style>.section-actions{margin-top:1.5rem}.nav-login{white-space:nowrap}</style>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -28,7 +29,8 @@
         <a href="#categories">What clubs buy</a>
         <a href="#pilot">The pilot</a>
         <a href="#about">About</a>
-        <a class="button button-small" href="join.html">Join the pilot</a>
+        <a class="button button-small" data-fbn-link="club" href="join.html">Register your club</a>
+        <a class="nav-login" data-fbn-link="login" href="https://app.footballbuyingnetwork.co.uk/">Member login</a>
       </nav>
     </div>
   </header>
@@ -41,10 +43,10 @@
           <h1>Football clubs shouldn’t have to buy alone.</h1>
           <p class="lead">Football Buying Network is a validation-stage procurement network being developed to help grassroots and non-league clubs reduce purchasing costs and admin by combining compatible demand and inviting suppliers to compete for the business.</p>
           <div class="hero-actions">
-            <a class="button" href="join.html">Join the pilot</a>
+            <a class="button" data-fbn-link="club" href="join.html">Register your club — free</a>
             <a class="button button-ghost" href="mailto:lee@footballbuyingnetwork.co.uk?subject=Football%20Buying%20Network%20pilot">Talk to Lee</a>
           </div>
-          <p class="micro">No cost to take part in the pilot. No obligation to change supplier.</p>
+          <p class="micro">Always free for clubs. No obligation to change supplier.</p>
         </div>
 
         <aside class="hero-card" aria-label="Pilot overview">
@@ -60,7 +62,7 @@
 
     <section class="proof-strip" aria-label="Pilot commitments">
       <div class="wrap proof-grid">
-        <div><strong>£0</strong><span>club fee during the pilot</span></div>
+        <div><strong>£0</strong><span>club joining or membership fees</span></div>
         <div><strong>10–15 mins</strong><span>for the first conversation</span></div>
         <div><strong>Your choice</strong><span>no forced supplier switch</span></div>
       </div>
@@ -100,6 +102,7 @@
             <p>Suppliers can quote against real demand. The club sees the opportunity and chooses whether or not to proceed.</p>
           </article>
         </div>
+        <div class="section-actions"><a class="button" data-fbn-link="club" href="join.html">Register your club — free</a></div>
       </div>
     </section>
 
@@ -143,7 +146,7 @@
             <li>Review any relevant group-buying opportunity</li>
             <li>Decide independently whether the offer works for your club</li>
           </ul>
-          <a class="button button-light" href="join.html">Join the pilot</a>
+          <a class="button button-light" data-fbn-link="club" href="join.html">Register your club</a>
         </div>
       </div>
     </section>
@@ -153,7 +156,7 @@
         <span class="eyebrow">Built around trust</span>
         <h2>What clubs should expect from FBN.</h2>
         <div class="principle-grid">
-          <article><h3>Transparent</h3><p>The pilot is designed to keep participation free for clubs. Where qualifying FBN-generated business completes, FBN may earn an agreed commission from the supplier.</p></article>
+          <article><h3>Transparent</h3><p>Joining and using FBN is free for clubs. Where qualifying FBN-generated business completes, FBN may earn an agreed commission from the supplier.</p></article>
           <article><h3>Club-led</h3><p>The club keeps the final decision. FBN exists to create and compare opportunities, not force purchasing choices.</p></article>
           <article><h3>Evidence-first</h3><p>The pilot is designed to prove real savings and useful outcomes before we make bigger claims or invest in complex software.</p></article>
         </div>
@@ -184,8 +187,8 @@
         <h2>Before you take part.</h2>
         <div class="faq-list">
           <details>
-            <summary>Does the club pay to join the pilot?</summary>
-            <p>No. There is no cost to a club to take part in the validation pilot.</p>
+            <summary>Does the club pay to join FBN?</summary>
+            <p>No. FBN does not charge clubs to join or participate.</p>
           </details>
           <details>
             <summary>Do we have to change suppliers?</summary>
@@ -197,7 +200,7 @@
           </details>
           <details>
             <summary>How will FBN make money?</summary>
-            <p>The pilot model is supplier-funded. Clubs do not pay to take part. Where qualifying FBN-generated business completes, FBN can earn an agreed supplier commission. Any future optional services would be introduced separately and transparently.</p>
+            <p>The pilot model is supplier-funded. Clubs do not pay FBN to take part. Where qualifying FBN-generated business completes, FBN can earn an agreed supplier commission. FBN is funded through agreed supplier commissions on qualifying transactions.</p>
           </details>
           <details>
             <summary>Who pays whom if we place an order?</summary>
@@ -214,7 +217,13 @@
           <h2>Help test whether football clubs can buy better together.</h2>
           <p>A short conversation is enough to start.</p>
         </div>
-        <div class="cta-actions"><a class="button button-light" href="join.html">Join the pilot</a><a class="button button-ghost" href="mailto:lee@footballbuyingnetwork.co.uk?subject=Football%20Buying%20Network%20pilot">Talk to Lee</a></div>
+        <div class="cta-actions"><a class="button button-light" data-fbn-link="club" href="join.html">Register your club — free</a><a class="button button-ghost" href="mailto:lee@footballbuyingnetwork.co.uk?subject=Football%20Buying%20Network%20pilot">Talk to Lee</a></div>
+      </div>
+    </section>
+    <section class="section section-tint" id="suppliers">
+      <div class="wrap split">
+        <div><span class="eyebrow">For suppliers</span><h2>Reach genuine football club purchasing opportunities.</h2></div>
+        <div class="rich-copy"><p>FBN invites suppliers to compete for relevant buying pools and tenders. Interested in supplying kits, footballs, training equipment or other club essentials?</p><div class="section-actions"><a class="button" data-fbn-link="supplier" href="mailto:lee@footballbuyingnetwork.co.uk?subject=FBN%20supplier%20registration">Become an FBN supplier</a></div></div>
       </div>
     </section>
     <section class="section supporters" id="supporters">
@@ -246,6 +255,9 @@
         <p>Collective purchasing infrastructure for football clubs — currently in validation.</p>
       </div>
       <div class="footer-links">
+        <a data-fbn-link="club" href="join.html">Register your club</a>
+        <a data-fbn-link="supplier" href="mailto:lee@footballbuyingnetwork.co.uk?subject=FBN%20supplier%20registration">Supplier registration</a>
+        <a data-fbn-link="login" href="https://app.footballbuyingnetwork.co.uk/">Member login</a>
         <a href="privacy.html">Privacy</a>
         <a href="mailto:lee@footballbuyingnetwork.co.uk?subject=Football%20Buying%20Network">Contact</a>
       </div>
@@ -253,6 +265,7 @@
     </div>
   </footer>
 
+  <script src="app-links.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
